@@ -1,0 +1,62 @@
+name: kywy-specs-final
+tools:
+  - name: Columns with no pk in params
+    file: test_python_columns_with_no_pk_in_params.py
+  - name: Column script measure1
+    file: test_python_columns_script_measure1.py
+  - name: Column script two measures
+    file: test_python_columns_script_two_measures.py
+  - name: Column script with all types
+    file: test_python_columns_script_with_all_types.py
+  - name: Column script with error when executing
+    file: test_python_columns_with_error_when_executing.py
+  - name: Column script with no pk in params with logging
+    file: test_python_columns_with_no_pk_in_params_with_logging.py
+  - name: Column script with pk in params
+    file: test_python_columns_with_pk_in_params.py
+  - name: Column script with secrets
+    file: test_python_columns_with_secret.py
+  - name: Column script with missing arguments will throw error
+    file: test_script_with_missing_arguments_will_throw_error.py
+  - name: Column script with two function will throw error
+    file: test_script_with_two_functions_will_throw_error.py
+  - name: Column script without any function with inputs
+    file: test_script_without_any_function_with_inputs.py
+  - name: Script with no output used in python columns will throw error when executing
+    file: test_script_with_no_output_will_throw_error.py
+  - name: Columns with no pk in params with new output
+    file: test_python_columns_with_no_pk_in_params_and_new_output.py
+  - name: Column script measure1 with ouput of different type
+    file: test_python_columns_script_measure1_and_different_input_type.py
+  - name: Test simple python etl stock / price
+    file: test_python_etl.py
+  - name: Test bigger python etl
+    file: test_python_etl_many_lines.py
+  - name: Test python ETL with compute
+    file: test_python_etl_with_compute.py
+  - name: Test python column with parameters
+    file: test_with_parameters.py
+  - name: Test python columns malformed
+    file: test_python_columns_malformed_script.py
+  - name: Test etl that throws script
+    file: test_python_etl_that_throws.py
+  - name: Test metadata
+    file: test_metadata.py
+  - name: Script with unknown input
+    file: script_with_unknown_input.py
+  - name: Script with bad syntax
+    file: script_with_bad_syntax.py
+  - name: Script with unknown import
+    file: script_with_unknown_import.py
+  - name: Script with missing type
+    file: script_with_missing_type.py
+  - name: Script with more than one tool
+    file: script_with_more_than_one_tool.py
+  - name: Script with no kawa tool
+    file: script_with_no_kawa_tool.py
+  - name: Script ETL with incremental
+    file: test_python_etl_incremental.py
+  - name: Script ETL with params
+    file: test_python_etl_with_params.py
+  - name: Runnable simple
+    file: runnable_simple.py
